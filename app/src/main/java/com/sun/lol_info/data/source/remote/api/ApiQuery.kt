@@ -1,14 +1,10 @@
-package com.sun.lol_info.data.datasource.remote.api
+package com.sun.lol_info.data.source.remote.api
 
 import android.net.Uri
 import com.sun.lol_info.utils.Character
 import com.sun.lol_info.utils.Extension
 
 object ApiQuery {
-
-    /**
-     * Riot API
-     */
 
     private fun createRiotBaseUri() = Uri.Builder()
         .scheme(ApiConstants.SCHEME_HTTPS)
@@ -85,10 +81,6 @@ object ApiQuery {
         .appendPath(ApiConstants.SPELL)
         .appendPath(imageName)
         .toString()
-
-    /**
-     * Pandas API
-     */
 
     private fun createPandasBaseUri() = Uri.Builder()
         .scheme(ApiConstants.SCHEME_HTTPS)

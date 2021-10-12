@@ -1,4 +1,4 @@
-package com.sun.lol_info.data.datasource.remote.api
+package com.sun.lol_info.data.source.remote.api
 
 object ApiConstants {
     const val SCHEME_HTTPS = "https"
